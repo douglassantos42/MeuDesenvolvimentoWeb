@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+.listar-page {
+    flex: 1;
+    padding: 35px 24px;
+}
+
+.listar-page h1 {
+    margin: 0 0 28px;
+    font-size: 34px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th,
+td {
+    padding: 14px;
+    border: 1px solid #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+th {
+    font-weight: 700;
+    background: #eee;
+}
+
+td a {
+    display: inline-block;
+    margin: 0 6px;
+    color: #000;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
